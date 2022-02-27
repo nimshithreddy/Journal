@@ -78,6 +78,7 @@ namespace VirtualJournal.Controllers
             }
         }
 
+        //*Code from here is commented off at present But will be reverted to working whenever required
         /*//GET api/<RegistrationController>/<username><passowrd>
         [HttpGet("{password}")]
         public async Task<IActionResult> ValidateRegistration(string username, string password)
